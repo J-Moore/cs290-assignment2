@@ -36,3 +36,24 @@ tbody tr:nth-child(even) {
 dt:hover + dd {
     background-color: purple;
 }
+
+.outer-content {
+    background-color: pink;
+    height: 50px;
+    margin-top: 20px;
+    width: 75%;
+    z-index: 0;
+}
+
+.inner-content {
+    background-color: lightblue;
+    height: 100%;
+    margin-left: 12.5%;
+    text-align: center;
+    width: 75%;
+    z-index: 1;
+}
+
+img {
+    float: left;
+}
